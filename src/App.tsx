@@ -52,7 +52,8 @@ function Topics() {
   let match = useRouteMatch();
 
   return (
-    <div>
+    // テスト用にクラス追加してます
+    <div className='topics'>
       <h2>Topics</h2>
 
       <ul>
